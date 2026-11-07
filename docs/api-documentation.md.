@@ -1,0 +1,27 @@
+
+# RoadGuard - API Documentation
+
+## Overview
+RoadGuard uses REST APIs to allow communication between the frontend and backend.
+
+## Planned API Endpoints
+
+| Method | Endpoint | Purpose |
+|---|---|---|
+| GET | /api/reports | Retrieve pothole reports |
+| POST | /api/reports | Submit a new report |
+| GET | /api/reports/:id | Retrieve a specific report |
+| PUT | /api/reports/:id | Update a report |
+| DELETE | /api/reports/:id | Delete a report |
+| GET | /api/health | Check backend status |
+
+## AI Service
+The AI service is planned to analyse submitted images and return pothole detection results.
+
+## Expected Response
+API responses should use JSON format.
+
+## Notes
+These endpoints are proposed for development. Actual routes and response formats must be confirmed with the backend team.
+
+API documentation will be updated after implementation and testing.
